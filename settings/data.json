@@ -1,0 +1,179 @@
+{
+    "spritesheet" : {
+        "sprite" : "_internal/sprites/sprite_Sheet_platformer.png",
+        "width" : 128,
+        "height" : 128
+    },
+    "cloud" : {
+        "x" : 48,
+        "y" : 16,
+        "width" : 48,
+        "height" : 16,
+        "endwidth" : 96,
+        "endheight" : 32
+    },
+    "player" : {
+        "x" : 48,
+        "y" : 32,
+        "width" : 16,
+        "height" : 16,
+        "endwidth" : 32,
+        "endheight" : 32
+    },
+    "blocks" : [
+        {
+            "x" : 0,
+            "y" : 0,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : false,
+            "has_collision" : true,
+            "name" : "dirt"
+        },
+        {
+            "x" : 16,
+            "y" : 0,
+            "width" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "height" : 16,
+            "deadly" : false,
+            "has_collision" : true,
+            "name" : "grass"
+        },
+        {
+            "x" : 48,
+            "y" : 0,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : false,
+            "has_collision" : true,
+            "name" : "rock"
+        },
+         {
+            "x" : 64,
+            "y" : 0,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : false,
+            "has_collision" : true,
+            "name" : "stalagmite"
+        },
+        {
+            "x" : 16,
+            "y" : 32,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : false,
+            "has_collision" : false,
+            "name" : "grass1"
+        },
+        {
+            "x" : 32,
+            "y" : 32,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : false,
+            "has_collision" : false,
+            "name" : "grass2"
+        },
+        {
+            "x" : 160,
+            "y" : 32,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : false,
+            "has_collision" : false,
+            "name" : "grass3"
+        },
+        {
+            "x" : 192,
+            "y" : 32,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : false,
+            "has_collision" : false,
+            "name" : "grass4"
+        },
+        {
+            "x" : 0,
+            "y" : 80,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : true,
+            "has_collision" : false,
+            "name" : "spike"
+        },
+        {
+            "x" : 16,
+            "y" : 80,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : true,
+            "has_collision" : false,
+            "name" : "spike1"
+        },
+        {
+            "x" : 32,
+            "y" : 80,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : true,
+            "has_collision" : false,
+            "name" : "spike2"
+        },
+        {
+            "x" : 48,
+            "y" : 80,
+            "width" : 16,
+            "height" : 16,
+            "endwidth" : 32,
+            "endheight" : 32,
+            "deadly" : true,
+            "has_collision" : false,
+            "name" : "spike4"
+        },
+        {
+            "x" : 16,
+            "y" : 48,
+            "width" : 48,
+            "height" : 32,
+            "endwidth" : 96,
+            "endheight" : 64,
+            "deadly" : false,
+            "has_collision" : false,
+            "name" : "house"
+        },
+        {
+            "x" : 0,
+            "y" : 16,
+            "width" : 16,
+            "height" : 48,
+            "endwidth" : 32,
+            "endheight" : 96,
+            "deadly" : false,
+            "has_collision" : false,
+            "name" : "tree"
+        }
+    ]
+}

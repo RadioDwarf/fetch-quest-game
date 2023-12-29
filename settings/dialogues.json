@@ -1,0 +1,62 @@
+{
+    "npcs" :[
+        {
+            "name" : "grandpa",
+            "dialogues" : ["Hey grandson, can you get me my watch?","Thank you. You are fantastic!"],
+            "fetch quest" : "watch",
+            "item pos" : [2144,3168],
+            "answer" : "Thank you",
+            "sprite_path" : "_internal/sprites/watch.png"
+        },
+        {
+            "name" : "fizzo",
+            "dialogues" : ["Nooooo, my rabbit ran away!","Please help me find him"],
+            "fetch quest" : "rabbit",
+            "answer" : "Oh thank you. You are so fantastic!",
+            "item pos" : [1088,1408],
+            "sprite_path" : "_internal/sprites/rabbit.png"
+        },
+        {
+            "name" : "irs agent",
+            "dialogues" : ["Did you do your taxes?"],
+            "fetch quest" : "taxes",
+            "answer" : "Good, good luck next time",
+            "item pos" : [-1632,576],
+            "sprite_path" : "_internal/sprites/tax.png"
+        },
+        {
+            "name" : "quiet guy",
+            "dialogues" : ["..."],
+            "answer" : "Om nom nom nom nom nom",
+            "fetch quest" : false,
+            "sprite_path" : "_internal/sprites/rock.png"
+        },
+        {
+            "name" : "wallo",
+            "dialogues" : ["Oh man I lost my wallet."],
+            "answer" : "Thanks, how will I ever repay you?",
+            "fetch quest" : false,
+            "item pos" : [-1056,640]
+        },
+        {
+            "name" : "fluffy",
+            "dialogues" : ["You didn't see me."],
+            "answer" : "Huh, fluffy potato?",
+            "fetch quest" : "potato",
+            "item pos" : [-12064,1152],
+            "sprite_path" : "_internal/sprites/potato.png"
+        },
+        {
+            "name" : "anon",
+            "dialogues" : ["Huh, why do we all look the same"],
+            "fetch quest" : false
+        },
+        {
+            "name" : "female anon",
+            "dialogues" : ["Did you realize we all kind of sit in one place all the time?", "Yeah it's weird like I have a mental barrier to move.","Wait you don't?","Huh interesting","I wish I didn't have it and could move around like you.", "Your jumps are funny","Bye!"],
+            "fetch quest" : false
+        }
+        
+    ]
+    
+}
