@@ -4,12 +4,14 @@ import random
 import screeninfo
 import json
 class Data:
-    def rotate_image(image, angle, position, screen):
+    @staticmethod
+    def rotate_image(image:pygame.Surface, angle:int, position:pygame.Rect, screen:pygame.Surface):
         rotated_image = pygame.transform.rotate(image, angle)
         image_rect = image.get_rect()
         rrect = rotated_image.get_rect(center=(image_rect.width // 2, image_rect.height // 2))
         screen.blit(rotated_image, (position.x+rrect.x,position.y+rrect.y))
-    def loadImage(path,width=35,height=35):
+    @staticmethod
+    def loadImage(path:str,width:int=35,height:int=35):
         img = pygame.image.load(path)
         img = pygame.transform.scale(img,(width,height))
         return img.convert_alpha()
